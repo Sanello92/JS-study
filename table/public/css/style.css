@@ -1,0 +1,60 @@
+/*.header{
+	color: blue;
+	text-decoration: underline;
+}
+#block-element{
+	color: green;
+}*/
+.table{
+	width: 100%;
+	border: 2px solid white;
+	text-align: center;
+	table-layout: fixed;
+	color: white;
+}
+.titles{
+	color: black;
+}
+
+.IE{
+	border-bottom: 2px solid #385884;
+}
+.Edge{
+	border-bottom: 2px solid #385884;
+}
+.Firefox{
+	border-bottom: 2px solid #A36223;
+}
+.Chrome{
+	border-bottom: 2px solid #3F77BB;
+}
+.Chrome_for_android{
+	border-bottom: 2px solid #3F77BB;
+}
+.Safari{
+	border-bottom: 2px solid #666666;
+}
+.IOS_Safari{
+	border-bottom: 2px solid #333333;
+}
+.Opera_mini{
+	border-bottom: 2px solid #992626;
+}
+.Uc_for_Android{
+	border-bottom: 2px solid #000000;
+}
+.Samsung_internet{
+	border-bottom: 2px solid #9753FF;
+}
+.supported{
+	background-color: #39B54A;
+}
+.not_supported{
+	background-color: #C44230;
+}
+.partial_support{
+	background-color: #A8BD04;
+}
+.support_unknown{
+	background-color: #EAE1CE;
+}

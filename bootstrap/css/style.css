@@ -1,0 +1,104 @@
+body{
+	background-color: #000;
+}
+.p-0{
+	padding: 0;
+}
+button a{
+	color: #343A40;
+}
+button a:hover{
+	color: #EE6A0B;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon{
+	height: 50px;
+	width: 50px;
+}
+.person-photos{
+	margin-top: 10px;
+	color: white;
+	background-image: 
+	url('../img/background-photo.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	background-attachment: fixed;
+}
+.text-about{
+	background-color: #E86609;
+	opacity: 0.8;
+	color: black;
+}
+.w-100{
+	opacity: 0.7;
+}
+.w-100:hover{
+	opacity: 1;
+}
+.mw-100{
+	padding: 0;
+	width: 100%;
+	max-height: 390px;
+}
+.gallery img{
+	margin: 5px;
+	border: 2px solid white;
+}
+a.photo:hover img{
+	border: 2px solid #EF6C0A;
+}
+.modal-body{
+	background-color: #343A40;
+	color: white;
+}
+.btn-primary{
+	background-color: #DDDDDD;
+	color: #EE6A0B;
+}
+.btn-primary:hover{
+	background-color: black;
+}
+footer{
+	width: 100%;
+	height: auto;
+	background: #000;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 25px;
+	position: fixed top;
+
+}
+footer a{
+	color: white;
+	font-size: 14px;
+	margin-left: 10px;
+}
+footer nav a:hover{
+	color: #EE6A0B;
+}
+
+.social img{
+	margin-left: 10px;
+	margin-bottom: 10px;
+	width: 30px;
+	height: 30px;
+
+}
+.logo{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+@media (max-width: 575.98px) {
+	h1{
+		font-size: 22px;
+	}
+	h2{
+		font-size: 18px;
+	}
+	p{
+		font-size: 12px;
+	}
+}

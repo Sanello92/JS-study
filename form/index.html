@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Forms</title>
+	<link rel="stylesheet" href="public/css/style.css">
+</head>
+<body>
+	<h1>Form method get</h1>
+	<form action="https://www.google.com.ua/search" method="get" target="_blank">
+		<input class="search-input" name="q" type="text">
+		<button class="search-button">Button</button>
+	</form>
+	<h1>Form method post</h1>
+	<form action="#" method="get">
+		<div class="main">
+		<fieldset  class="border">
+			<legend class="border-label">Main information</legend>
+			<div>
+				<label class="label" for="name">Name</label>
+				<input class="border" id="name"
+				name="name"
+				type="text">
+			</div>
+			
+			<div>
+				<label class="label" for="email">Email</label>
+				<input class="border" id="email"
+				name="email"
+				type="email"
+				placeholder="test@mail.com">
+			</div>
+			<div>
+				<label class="label" for="password">Password</label>
+				<input class="border" id="password"
+				name="password"
+				type="password"
+				required>
+			</div>
+			<div>
+				<label class="label" for="repassword">Password repeat</label>
+				<input class="border" id="repassword"
+				name="repassword"
+				type="password"
+				required>
+			</div>
+		</fieldset>
+		<fieldset class="border">
+			<legend class="border-label">Personal information</legend>
+			<div>
+				<label class="label" for="birthday">Birthday</label>
+				<input class="border" id="birthday"
+				type="date">
+			</div>
+			<div>
+				<label class="label" for="age">Age</label>
+				<input class="border" id="age"
+				name="number"
+				type="number"
+				min="1"
+				max="200"
+				step="2">
+			</div>
+			<div>
+				<label class="label" for="country">Country</label>
+				<select class="border" name="country" id="country">
+					<option value="">Select country</option>
+					<optgroup label="Europe">
+					<option value="uk">Ukraine</option>
+					<option value="tk">Turkey</option>
+					</optgroup>
+					<optgroup label="America">
+					<option value="usa">USA</option>
+					</optgroup>
+				</select>
+			</div>
+		</fieldset>
+		<fieldset class="border">
+			<legend class="border-label">Intersts</legend>
+			<div>
+				<label class="label" for="info">About me</label>
+			<textarea class="border" name="info"
+			id="info" cols="30"
+			rows="5"
+			readonly>About me</textarea>
+			</div>
+			<div>
+				<label class="label" for="photo">Photo</label>
+				<input class="border" id="photo" name="photo" type="file">
+			</div>
+		</fieldset>
+		<fieldset class="border">
+			<legend class="border-label">Submit</legend>
+			<input class="border" type="button"
+			value="Button input">
+			<input class="border" type="submit"
+			value="Submit input">
+			<button class="border">Button</button>
+		</fieldset>
+		</div>
+	</form>
+</body>
+</html>

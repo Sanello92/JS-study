@@ -1,0 +1,22 @@
+body{
+	background-image: url(../img/form-background.JPG);
+}
+.border{
+	border-radius: 5px;
+}
+.label{
+	float:left;
+	width: 40%;
+}
+.main{
+	float: left;
+}
+.border-label{
+	text-align: left;
+}
+.search-input{
+	font-size:20px;
+}
+.search-button{
+	font-size: 20px;
+}
